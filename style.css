@@ -199,7 +199,7 @@
         }
         .timeline-dot{
             position: absolute;
-            left: calc(-2rem -6rem);
+            left: -38px;
             top:5px;
             width:10px;
             height:10px;
@@ -383,7 +383,10 @@
     }
 
     .timeline-item{
-        padding-left: 20px;
+        padding-left: 0px;
+    }
+    .timeline-dot{
+        left: -31px;
     }
 
     .contact-box{
