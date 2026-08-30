@@ -173,4 +173,52 @@
             position:relative;
             overflow:hidden;
         }
+        .story-box p{
+            color:#cbd5e1b;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+
+        }
+        .story-box p:last-child{
+            margin-bottom: 0;
+        }
+        .timeline{
+            position: relative;
+            margin-top:1.5rem;
+            padding-left:2rem;
+            border-left: 2px solid rgba(255,255,255,0.1);
+
+        }
+        .timeline-item{
+            position:relative;
+            margin-bottom: 2rem;
+
+        }
+        .timeline-item:last-child{
+            margin-bottom: 0;
+        }
+        .timeline-dot{
+            position: absolute;
+            left: calc(-2rem -6rem);
+            top:5px;
+            width:10px;
+            height:10px;
+            border-radius:50%;
+            background: var(--accent);
+            border: 2px solid var(--bg-color);
+
+        }
+        .timeline-year{
+            font-family: var(--font-mono);
+            font-size:0.85rem;
+            color: var(--accent);
+            font-weight:600;
+            margin-bottom: 0.25rem;
+
+        }
+        .timeline-title{
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+        }
         
