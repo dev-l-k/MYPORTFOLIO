@@ -103,5 +103,74 @@
             font-weight: 600;
             text-decoration:none;
             font-size:0.95rem;
+            transition:all 0.2s ease;
             
         }
+        .nav-links a:hover{
+            color: var(--accent);
+
+        }
+        .badge{
+            display: inline-flex;
+            align-items:center;
+            gap:0.5rem;
+            background: rgba(56,189,248,0.1);
+            color:var(--accent);
+            border: 1px solid rgba(56,189,248,0.2);
+            padding:0.35rem 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+
+        }
+        .badge-dot{
+            width:8px;
+            height: 8px;
+            background:#22c55e;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #22c55e;
+        }
+        .btn-primary{
+            background-color: var(--accent-gradient);
+            color: #0f172a;
+
+        }
+        .btn-secondary{
+            background:var(--card-bg);
+            color:var(--text-main);
+            border:1px solid var(--border-color);
+        }
+        .btn-primary:hover{
+            opacity:0.9;
+            transform: translateY(-2px);
+
+        }
+        .btn-secondary:hover{
+            background:var(--card-hover);
+            transform: translateY(-2px);
+
+        }
+        section{
+            padding:3.5rem 0;
+        }
+        .section-title{
+            font-size:1.8rem;
+            font-weight:700;
+            margin-bottom:0.5rem;
+            letter-spacing: -0.5px;
+
+        }
+        .section-subtitle{
+            color:var(--text-muted);
+            margin-bottom: 2rem;
+            font-size:1rem;
+
+        }
+        .story-box{
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius:12px;
+            padding:2rem;
+            position:relative;
+            overflow:hidden;
+        }
+        
