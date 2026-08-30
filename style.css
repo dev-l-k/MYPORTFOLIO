@@ -60,7 +60,7 @@
         .container{
             max-width: 900px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 1rem;
 
         }
         nav{
@@ -303,7 +303,7 @@
             transition:all 0.2s ease;
 
         }
-        .email-link{
+        .email-link:hover{
             background:rbga(56,189,248,0.2);
             transform:scale(1.02);
 
@@ -419,4 +419,3 @@
     }
 }
 
-        
